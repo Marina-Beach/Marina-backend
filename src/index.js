@@ -15,7 +15,7 @@ const corsOrigins = (process.env.CORS_ORIGIN || 'http://localhost:5173,http://lo
 
 const app = createApp({
   mailer: createResendMailer(process.env.RESEND_API_KEY),
-  mailFrom: `"Le Vezo Beach Morondava" <${process.env.MAIL_FROM}>`,
+  mailFrom: `"Marina Beach Morondava" <${process.env.MAIL_FROM}>`,
   mailTo: process.env.MAIL_TO,
   corsOrigins,
 })

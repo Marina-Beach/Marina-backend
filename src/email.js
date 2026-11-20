@@ -106,8 +106,8 @@ export function buildRequestEmail({ type, page, fields }, { from, to, receivedAt
         <td align="center">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:12px;overflow:hidden;">
             <tr>
-              <td style="background:#292059;padding:36px 36px 30px;text-align:center;">
-                <div style="font-family:Georgia,'Times New Roman',serif;font-size:12px;letter-spacing:4px;color:#FFCB3D;text-transform:uppercase;">Le Vezo Beach</div>
+              <td style="background:#143369;padding:36px 36px 30px;text-align:center;">
+                <div style="font-family:Georgia,'Times New Roman',serif;font-size:12px;letter-spacing:4px;color:#FFCB3D;text-transform:uppercase;">Marina Beach</div>
                 <div style="font-family:Georgia,'Times New Roman',serif;font-size:24px;color:#ffffff;margin-top:12px;">${escapeHtml(template.title)}</div>
               </td>
             </tr>
@@ -128,7 +128,7 @@ export function buildRequestEmail({ type, page, fields }, { from, to, receivedAt
             </tr>${messageHtml}
             <tr>
               <td align="center" style="padding:32px 36px 12px;">
-                <a href="mailto:${email}" style="display:inline-block;background:#292059;color:#ffffff;text-decoration:none;padding:14px 32px;border-radius:999px;font-size:15px;">Répondre à ${name}</a>
+                <a href="mailto:${email}" style="display:inline-block;background:#143369;color:#ffffff;text-decoration:none;padding:14px 32px;border-radius:999px;font-size:15px;">Répondre à ${name}</a>
               </td>
             </tr>
             <tr>
